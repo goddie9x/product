@@ -128,6 +128,35 @@
     .rabit:active {
         width: 20vw;
     }
+    
+    .blog__image--slide {
+        color: rgba(206, 193, 193, 0.8);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .blog__image--flex {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: flex-end;
+    }
+    
+    .image__flex--item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .img__flex--item {
+        margin: 10px;
+        max-width: 30vw;
+        max-height: 60vh;
+        border-radius: 30px;
+    }
     /*---------------------------------------------HEADER---------------------------------------------------*/
     
     .header {
@@ -276,7 +305,7 @@
     }
     
     .blog__item--title {
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
     
@@ -300,6 +329,11 @@
     
     .my-poems.active {
         display: block;
+    }
+    
+    .img__flex--item1 {
+        width: 70vw;
+        border-radius: 30px;
     }
     /*---------------------------------------------FOOTER---------------------------------------------------*/
     
@@ -364,7 +398,7 @@
             font-size: 33px;
         }
         .blog__item--title {
-            font-size: 28px;
+            font-size: 22px;
         }
         .contact-grid {
             flex-direction: column;
