@@ -24,7 +24,6 @@ $('.main-nav-bar-submit').onclick = function(e) {
 }
 $('.main-nav-mobile').onclick = function() {
     $toggle([...$$('.menu-icon'), $('.main-nav-bar-mobile')]);
-    console.log('d')
 }
 $('.rabit').onclick = function() {
     $toggle([...$$('.my-poems')]);

@@ -328,13 +328,14 @@
         margin-left: 10px;
     }
     
-    .main-nav-bar-submit {
+    .bar-item.main-nav-bar-submit {
         background-color: azure;
         border-radius: 3px;
         margin-left: 10px;
         margin-right: 10px;
         width: 30px;
         height: 30px;
+        min-width: 20px;
         cursor: pointer;
         padding: 0;
     }
@@ -431,7 +432,7 @@
             flex-grow: 5;
         }
         .bar-item {
-            width: 15vw;
+            min-width: 15vw;
             margin-left: 1px;
         }
         .main-nav-bar-search {
@@ -482,7 +483,7 @@
         }
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 48em) {
         body {
             font-size: 16px;
         }
