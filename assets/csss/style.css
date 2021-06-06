@@ -247,6 +247,7 @@
         display: flex;
         justify-content: center;
         z-index: 99;
+        align-items: center;
     }
     
     .main-nav {
@@ -497,10 +498,12 @@
             position: absolute;
             top: 50px;
             height: max-content;
-            width: 100vw;
+            width: 90vw;
             background-color: rgba(8, 8, 8);
             border-radius: 10px;
             line-height: 18px;
+            overflow-y: scroll;
+            height: 80vh;
         }
         .main-nav-mobile {
             display: block;
@@ -521,7 +524,9 @@
             display: none;
         }
         .bar-item-mobile {
-            margin: 20px;
+            margin-left: 20px;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
             border-bottom: 1px rgba(16, 201, 16, 0.4) solid;
         }
         .bar-item-mobile:hover {
