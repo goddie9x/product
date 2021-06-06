@@ -20,7 +20,6 @@
     /*---------------------------------------------USEABLE---------------------------------------------------*/
     
     .bread-crumb {
-        position: absolute;
         font-weight: 600;
         left: 10px;
         top: 20px;
@@ -432,7 +431,6 @@
             flex-grow: 5;
         }
         .bar-item {
-            min-width: 15vw;
             margin-left: 1px;
         }
         .main-nav-bar-search {
