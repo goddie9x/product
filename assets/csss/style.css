@@ -20,9 +20,10 @@
     /*---------------------------------------------USEABLE---------------------------------------------------*/
     
     .bread-crumb {
+        position: absolute;
         font-weight: 600;
         left: 10px;
-        top: 20px;
+        top: 60px;
     }
     
     .bread-crumb a.bread-crumb__item {
